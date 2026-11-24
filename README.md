@@ -59,10 +59,12 @@ No Windows, você também pode copiar manualmente o arquivo `.env.example` e ren
 As variáveis de ambiente disponíveis estão em `.env.example`:
 
 ```env
-VITE_API_URL=http://localhost:3000
+VITE_API_URL=https://backend-fullstack-atividade3-pokecard.onrender.com
 ```
 
 - `VITE_API_URL`: endereço base da API backend.
+
+Para desenvolvimento com um backend local, altere o valor para `http://localhost:3000`. No Vercel, configure `VITE_API_URL` com a URL pública do backend nas variáveis de ambiente e faça um novo deploy.
 
 A busca de cartas usa a [API TCGdex](https://tcgdex.dev/pt-br), configurada para português (`pt`).
 
